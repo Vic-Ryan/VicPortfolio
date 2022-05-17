@@ -1,0 +1,69 @@
+body h1, h2 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(122, 187, 218);
+}
+
+nav {
+    position: fixed;
+}
+
+#about-me {
+    background-color: white;
+    border-radius: 2rem;
+}
+
+#about-me p {
+    padding-top: 3rem;
+}
+
+#about-me img {
+    width: 20rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+#skills {
+    margin-bottom: 5rem;
+}
+
+#about-item {
+    width: 20%;
+}
+
+#skills {
+    text-align: center;
+}
+
+#past-header {
+    text-align: center;
+}
+
+#contact-me {
+    text-align: center;
+}
+
+#card {
+    border-radius: 10px;
+    height: auto;
+}
+
+#past-projects a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#past-projects a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#past-projects a:hover {
+    color: gray;
+}
